@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Of Fruits</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Fruits Survey</h1>
+    <div>
+        <label for="fname" id="FName">Name:</label>
+        <input type="text" name="Name" id="fname">
+    </div>
+    <br>
+    <div>
+        <label for="add" id="ADD">Address:</label>
+        <input type="text" name="address" id="add">
+    </div>
+    <br>
+    <div>
+        <label for="email" id="mail">Email:</label>
+        <input type="email" name="Email" id="email">
+    </div>
+    <br>
+    <div class="container">
+        <div id="ques">How many pieces of fruits do you eat per day? :</div>
+        <div id="options">
+            <input type="radio" name="Pieces" id="zero" value="0">
+            <label for="zero">0</label><br>
+            <input type="radio" name="Pieces" id="one" value="1">
+            <label for="one">1</label><br>
+            <input type="radio" name="Pieces" id="two" value="2">
+            <label for="two">2</label><br>
+            <input type="radio" name="Pieces" id="2++" value="more than 2">
+            <label for="2++">More than 2</label>
+        </div>
+    </div>
+    <br>
+    <div class="c1">
+        <label for="favfruit" id="ffruit">My favourite fruit :</label>
+        <select name="Favfuit" id="favfruit">
+            <option value="default" selected>Select</option>
+            <option value="a">Apple</option>
+            <option value="b">Banana</option>
+            <option value="pl">Plum</option>
+            <option value="po">Pomegranate</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="brochure" id="Brochure">Would you like a brochure?:</label>
+        <input type="checkbox" name="Brochure" id="brochure">
+    </div>
+    <br>
+    <input type="submit" value="Submit" id="submit">
+</body>
+
+</html>

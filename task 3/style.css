@@ -1,0 +1,50 @@
+
+        * {
+            box-sizing: border-box;
+        }
+
+        #ques {
+            float: left;
+            width: 12%;
+            height: 79.2px;
+        }
+
+        #options {
+            float: left;
+            width: 88%;
+        }
+
+        #FName {
+            float: left;
+            width: 12%;
+        }
+
+        #ADD {
+            float: left;
+            width: 12%;
+        }
+
+        #mail {
+            float: left;
+            width: 12%;
+        }
+
+        #ffruit {
+            float: left;
+            width: 12%;
+        }
+
+        #submit {
+            margin-left: 12%;
+        }
+
+        #Brochure{
+            float:left;
+            width: 12%;
+        }
+        .container{
+            padding-bottom: 5%;
+        }
+        .c1{
+            clear: left;
+        }

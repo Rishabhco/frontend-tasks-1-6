@@ -1,0 +1,45 @@
+*{
+    background-color: rgb(180, 180, 219);       
+}
+body{
+        margin: 10px 50px;
+        border: solid 4px rgb(12, 12, 184) ;
+        padding: 0px 10px;
+    }
+#c1{
+        font-size: 20px;
+    }
+.sub{
+        font-weight: bold;
+    }
+#c2{
+        font-size: 20px;
+    }
+.c3{
+        font-family: 'Courier New', Courier, monospace;
+        font-style: italic;
+    }
+h1{
+        text-align: center;
+    }
+h4{
+        text-align: center;
+    }
+#c4{
+        border: solid 2px rgb(61, 61, 192);
+        margin: 10px 0px;
+        color: darkblue;
+    }
+b{
+        color: purple;
+    }
+#marvel{
+            background-color: red;
+            color: white;
+            font-weight: bold;
+            
+        }
+#std{
+        color: white;
+        text-decoration: underline;
+    }
